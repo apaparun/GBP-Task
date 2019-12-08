@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "greeting",
+    "version": "1.0",
+    "description": "Greeting extension",
+    "icons":{
+        "128":"icon128.png"
+    },
+    "permissions": [
+        "tabs", "<all_urls>"
+      ],
+      "chrome_url_overrides": {
+        "newtab": "popup.html"
+     },
+    "browser_action":{
+        "default_icon":"icon128.png",
+        "default_popup":"popup.html",
+        "default_title":"a popup greeting"
+    }
+}
+
+
